@@ -1,0 +1,66 @@
+/* .promo-card {
+    margin: 20px;
+    padding: 15px;
+    background: linear-gradient(135deg, var(--primary), #E84A4D);
+    border-radius: 10px;
+    color: var(--white);
+    position: relative;
+    overflow: hidden;
+    animation: fadeIn 0.5s ease;
+    background-color: #E84A4D;
+}
+
+.promo-card h4 {
+    font-size: 16px;
+    margin-bottom: 8px;
+    z-index: 2;
+    position: relative;
+    background-color: aqua;
+}
+
+.promo-card p {
+    font-size: 13px;
+    margin-bottom: 15px;
+    opacity: 0.9;
+    z-index: 2;
+    position: relative;
+    background-color: aquamarine;
+} */
+
+/* .promo-card .btn {
+    background-color: var(--white);
+    color: var(--primary);
+    border: none;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    z-index: 2;
+    position: relative;
+    background-color: blueviolet;
+}
+
+.promo-card .btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: brown;
+} */
+
+.character {
+    position: relative;
+    right: 0;
+    bottom: 50;
+    width: 120px;
+    height: 120px;
+    z-index: 1;
+    animation: bounce 2s infinite alternate;
+}
+
+
+
+@keyframes bounce {
+    from { transform: translateY(0); }
+    to { transform: translateY(-10px); }
+}
