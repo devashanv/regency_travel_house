@@ -1,0 +1,16 @@
+/* web site styles */
+@theme {
+    /* color pallte */
+    --color-primary: #0D1537;
+    --color-secondary: #ec2326;
+    --color-body: #ffffff;
+
+    /* typography */
+    /* mobile -> -6, tab -> -4 */
+    --font-main: ;
+    --text-title: 32px;
+    --text-sub-title: 24px;
+    --text-para: 16px;
+    --text-line-space: 1.4;
+
+}

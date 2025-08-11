@@ -1,0 +1,4 @@
+.nav-blur{
+    /* background: linear-gradient(to bottom, transparent, white, transparent) !important; */
+    background-color: linear-gradient(to bottom, white, transparent) !important;
+}

@@ -1,0 +1,35 @@
+@import "tailwindcss";
+@import './styles/theme.css';
+
+/* slicks override styles */
+.slick-slide > div{
+    margin: 0 2rem 2rem 2rem;
+}
+
+.slick-prev:before, .slick-next:before{
+    color: #616161 !important;
+}
+
+.slick-dots li button {
+    width: 15px !important;
+    height: 6px !important;
+    background-color: #b4b4b4 !important;
+    padding: 0.1rem !important;
+    margin-top: 0rem !important;
+    transition: all 0.4s ease-in-out;
+    border-radius: 10px !important;
+}
+
+.slick-dots li button:before {
+    content: ' ' !important;
+}
+
+.slick-dots li.slick-active button{
+    width: 20px !important;
+    background-color: #ec2326 !important;
+}
+
+.slick-dots li{
+    margin: 5px !important;
+}
+

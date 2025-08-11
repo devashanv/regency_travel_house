@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "Sinhasathsara";
+  src: url("../assets/fonts/sinhasathsara2012.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.sinhala-text {
+  font-family: "Sinhasathsara", sans-serif;
+}
+
+@font-face {
+  font-family: "Excellence In Motion V4";
+  src: url("../assets/fonts/ExcellenceInMotionV-Bold.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.Heading-font {
+  font-family: "Excellence In Motion V4", sans-serif;
+}
