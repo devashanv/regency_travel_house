@@ -15,7 +15,10 @@ const Itinerary = ({ day, index, isActive, onToggle }) => {
         </div>
 
         {/* Distance */}
-        <div className="flex justify-between items-start gap-4 p-4 rounded-md">
+        <div
+          className="flex justify-between items-start gap-4 p-4 rounded-md"
+          onClick={onToggle}
+        >
           <div className="w-full">
             <h3
               className="text-lg font-semibold cursor-pointer"
@@ -23,7 +26,9 @@ const Itinerary = ({ day, index, isActive, onToggle }) => {
             >
               {day.title || `Day ${day.day_number}`}
             </h3>
-            <p className="text-sm text-gray-500">{day.location}</p>
+            <p className="text-sm text-gray-500" onClick={onToggle}>
+              {day.location}
+            </p>
 
             {/* Accordion */}
             {isActive && day.description && (
@@ -34,13 +39,12 @@ const Itinerary = ({ day, index, isActive, onToggle }) => {
                 className="bg-white lg:w-110 sm:w-65 p-4 rounded border  border-secondary mt-2 "
               >
                 <p className="mb-3 text-gray-700 ">{day.description}</p>
-              
               </motion.div>
             )}
           </div>
 
           <span className="text-sm bg-gray-100 px-3 py-1 rounded-full whitespace-nowrap">
-            {day.day_number}
+            Day {day.day_number}
           </span>
         </div>
       </div>

@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import "./App.css";
 import NavBar from "./components/NavBar";
 import NavBar1 from "./components/NavBar1";
-import NavBarMain from "./components/NavBarMain";
 import HeroSection from "./components/HeroSection";
 import HomeCardPost from "./components/HomeCardPost";
 import HomeAboutUs from "./components/HomeAboutUs";

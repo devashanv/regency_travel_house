@@ -94,7 +94,9 @@ function NavBar1(prop) {
               </span>
 
               {/* Dropdown Menu */}
-              <ul className="absolute pt-11 pb-11 m w-full flex text-bold   justify-center top-18 left-0 hidden group-hover:flex flex-row z-50  bg-white/30 backdrop-blur-md text-sm shadow-xl rounded-lg py-6 px-8 gap-10 transition transition-all duration-800 ease-out">
+              {/* <ul className="absolute pt-11 pb-11 m w-full flex text-bold   justify-center top-18 left-0 hidden group-hover:flex flex-row z-50  bg-white/30 backdrop-blur-md text-sm shadow-xl rounded-lg py-6 px-8 gap-10 transition transition-all duration-800 ease-out"> */}
+              <ul className="absolute pt-11 pb-11 m w-full flex text-bold   justify-center top-18 left-0 hidden group-hover:flex flex-row z-50  bg-white text-sm shadow-xl rounded-lg py-6 px-8 gap-10 transition transition-all duration-800 ease-out">
+
                 <div className=" w-[300px] mt-[-50px] flex items-center justify-center">
                   <img src={PlaneImg2} alt="Line Art" />
                 </div>

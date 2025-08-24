@@ -83,7 +83,9 @@ function NavBar1(prop) {
               </span>
 
               {/* Dropdown Menu */}
-              <ul className="absolute pt-11 pb-11 m w-full flex justify-center top-18 left-0 hidden group-hover:flex flex-row z-50  bg-white/30 backdrop-blur-md text-sm shadow-xl rounded-lg py-6 px-8 gap-10 transition transition-all duration-800 ease-out">
+              {/* <ul className="absolute pt-11 pb-11 m w-full flex justify-center top-18 left-0 hidden group-hover:flex flex-row z-50  bg-white/30 backdrop-blur-md text-sm shadow-xl rounded-lg py-6 px-8 gap-10 transition transition-all duration-800 ease-out"> */}
+              <ul className="absolute pt-11 pb-11 m w-full flex justify-center top-18 left-0 hidden group-hover:flex flex-row z-50  bg-white text-sm shadow-xl rounded-lg py-6 px-8 gap-10 transition-all duration-800 ease-out">
+
                 <div className=" w-[300px] mt-[-50px]  flex items-center justify-center">
                   <img src={PlaneImg2} alt="Line Art" className="" />
                 </div>
@@ -459,7 +461,9 @@ function NavBar1(prop) {
         {/* Mobile slide-in menu */}
 
         <div
-          className={`lg:hidden  bg-white/30 backdrop-blur-md fixed top-0 right-0 h-full w-full  shadow-lg z-50 transform transition-transform duration-300 ease-in-out ${
+          // className={`lg:hidden  bg-white/30 backdrop-blur-md fixed top-0 right-0 h-full w-full  shadow-lg z-50 transform transition-transform duration-300 ease-in-out ${
+          className={`lg:hidden  bg-white fixed top-0 right-0 h-full w-full  shadow-lg z-50 transform transition-transform duration-300 ease-in-out ${
+
             isMenuToggle ? "translate-x-0" : "translate-x-full"
           }`}
         >

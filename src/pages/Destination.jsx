@@ -482,7 +482,7 @@ function Destination() {
           <div className="">
             {/* Tabs */}
             <header className="mt-10 top-0 z-50 w-full lg:w-1/2 mx-auto p-5">
-              <div className="container mx-auto flex space-x-6 card-shadow justify-around gap-0 text-white flex rounded-full">
+              <div className="container mx-auto space-x-6 card-shadow justify-around gap-0 text-white flex rounded-full">
                 <button
                   onClick={() => handleScroll("about")}
                   className={
@@ -635,7 +635,7 @@ function Destination() {
         </main>
 
         {/* common cards */}
-        <section className="px-6 py-8 w-full mt-10 lg:mt-10 print:text-black">
+        {/* <section className="px-6 py-8 w-full mt-10 lg:mt-10 print:text-black">
           <div className="mx-auto w-full grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6 text-center">
             <div className="flex flex-col items-center space-y-3">
               <div className="text-3xl md:text-4xl lg:text-5xl p-6 md:p-8 lg:p-10 rounded-full bg-primary card-shadow flex items-center justify-center">
@@ -685,15 +685,14 @@ function Destination() {
               </p>
             </div>
           </div>
-        </section>
+        </section> */}
 
         {/* itineraries */}
-        <div className="w-5/6 h-auto md:mt-15 lg:mt-0 mx-auto flex flex-col lg:flex-row lg:py-20 print:block print:text-black">
+        <div className="w-5/6 h-auto md:mt-15 lg:mt-0 mx-auto flex flex-col lg:flex-row lg:py-20 print:block print:text-black cursor-pointer">
           <section id="itineraries" className="w-full lg:w-1/2 h-auto">
             <h2 className="text-3xl font-bold mb-4">Itineraries</h2>
 
-            {/* list of your code section */}
-            <div className="w-full lg:max-w-2xl mx-auto p-6">
+            <div className="w-full  lg:max-w-2xl mx-auto p-6">
               {pkg.itineraries
                 ?.slice()
                 .sort((a, b) => a.dayNumber - b.dayNumber)
