@@ -1,13 +1,7 @@
 import React, { useEffect, useState } from "react";
-import clsx from "clsx";
 import NavBar1 from "../components/NavBar1";
 import Footer from "../components/Footer";
-import { Link } from "react-router-dom";
-import { LuArrowUpRight } from "react-icons/lu";
-
-import AboutImg1 from "../assets/aboutus1.jpg";
-import AboutImg2 from "../assets/aboutus2.jpg";
-import LineArt from "../assets/packges_lineart.png";
+import aboutBanner from '../assets/aboutBanner4.jpg';
 import sus from "../assets/sus.png";
 import Goal15 from "../assets/goals/goal15.jpg";
 import Goal8 from "../assets/goals/goal8.jpg";
@@ -48,7 +42,7 @@ function Sustainability() {
       <main>
         {/* landing section */}
         {/* <div className="bg-gray-100 pt-20 pb-10 w-full flex"> */}
-        <div className="bg-none sm:bg-[url('src/assets/aboutBanner4.jpg')] sm:bg-cover sm:bg-center sm:bg-no-repeat sm:bg-blend-multiply lg:h-[80dvh] pt-12 lg:pt-20 lg:pb-10 flex items-center">
+        <div  style={{ backgroundImage: `url(${aboutBanner})` }} className="bg-none sm:bg-cover sm:bg-center sm:bg-no-repeat sm:bg-blend-multiply lg:h-[80dvh] pt-12 lg:pt-20 lg:pb-10 flex items-center">
           <div className="w-5/6 mx-auto flex flex-col lg:flex-row">
             <section className="py-2 text-left w-full lg:w-4/6 mb-4 leading-line-height mb-10 lg:pr-40">
               <h1 className="text-lg font-bold lg:text-5xl text-primary text-center lg:text-left">
@@ -154,8 +148,8 @@ function Sustainability() {
                     creating meaningful impact in the lives of children by
                     supporting two critical Sustainable Development Goals: Good
                     Health and Well-being (SDG 3) and Quality Education (SDG 4).
-                    <br/>
-                    <br/>
+                    <br />
+                    <br />
                     In partnership with local government establishments, we
                     conduct well-being sessions that provide both health and
                     psychological support to students in underprivileged

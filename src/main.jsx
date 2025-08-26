@@ -35,6 +35,7 @@ import ForgotPassword from "./pages/Auth/ForgotPassword.jsx"
 import ResetPassword from "./pages/Auth/ResetPassword.jsx"
 import ADResetPasswordModal from "./pages/Admin/AdResetPassword.jsx";
 import SpecialPackages from "./pages/SpecialPackages.jsx";
+import TermsAndPolicy from "./pages/TermsAndPolicy.jsx";
 
 const router = createBrowserRouter([
   {
@@ -163,6 +164,10 @@ const router = createBrowserRouter([
 
   {  path:"/reset-password/staff",
     element:<ADResetPasswordModal />
+  },
+  {
+    path:"/terms-and-policy",
+    element:<TermsAndPolicy />
   }
   
 
