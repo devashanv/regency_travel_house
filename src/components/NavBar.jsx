@@ -103,7 +103,7 @@ function NavBar1(prop) {
                       <div>
                         <div className="flex flex-col justify-center gap-3 text-lg font-thin">
                           <Link
-                            to="/destination-packages?country=cambodia"
+                            to="/destination-packages?country=bhuthan"
                             className="hover:text-secondary"
                           >
                             Bhuthan
@@ -115,7 +115,7 @@ function NavBar1(prop) {
                             Cambodia
                           </Link>
                           <Link
-                            to="/destination-packages?country=cambodia"
+                            to="/destination-packages?country=china"
                             className="hover:text-secondary"
                           >
                             China
