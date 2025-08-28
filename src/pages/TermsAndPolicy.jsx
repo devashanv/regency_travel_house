@@ -15,7 +15,7 @@ function TermsAndPolicy() {
         <div className="max-w-5xl mx-auto bg-white/90 backdrop-blur-md shadow-xl rounded-2xl p-10 lg:p-14 border border-gray-100">
           <div className="space-y-12">
             <div className="max-w-4xl mx-auto text-center mb-16 px-6">
-              <h1 className="text-4xl font-extrabold text-primary bg-clip-text ">
+              <h1 className="text-4xl font-bold text-primary bg-clip-text ">
                 Terms of Use – Regency Travel House
               </h1>
               <p className="mt-4 text-lg text-gray-600">

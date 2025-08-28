@@ -689,7 +689,7 @@ function Destination() {
 
         {/* itineraries */}
         <div className="w-5/6 h-auto md:mt-15 lg:mt-0 mx-auto flex flex-col lg:flex-row lg:py-20 print:block print:text-black cursor-pointer">
-          <section id="itineraries" className="w-full lg:w-1/2 h-auto">
+          <section id="itineraries" className="w-full  h-auto">
             <h2 className="text-3xl font-bold mb-4">Itineraries</h2>
 
             <div className="w-full  lg:max-w-2xl mx-auto p-6">

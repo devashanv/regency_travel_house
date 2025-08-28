@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-
+import { IoIosArrowDown } from "react-icons/io";
 const Itinerary = ({ day, index, isActive, onToggle }) => {
   return (
     <div className="relative border-l-4 border-gray-200 pl-6">
@@ -21,10 +21,15 @@ const Itinerary = ({ day, index, isActive, onToggle }) => {
         >
           <div className="w-full">
             <h3
-              className="text-lg font-semibold cursor-pointer"
+              className="text-lg font-semibold cursor-pointer flex items-center gap-2"
               onClick={onToggle}
             >
               {day.title || `Day ${day.day_number}`}
+              <IoIosArrowDown
+                className={`text-gray-600 transition-transform duration-300 ${
+                  isActive ? "rotate-180" : "rotate-0"
+                }`}
+              />
             </h3>
             <p className="text-sm text-gray-500" onClick={onToggle}>
               {day.location}
