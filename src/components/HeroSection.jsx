@@ -71,10 +71,10 @@ function HeroSection() {
           ))}
 
           {/* Slide Content */}
-          <div className="lg:absolute lg:z-30 lg:inset-0 lg:flex lg:items-start bg-red200 lg:px-20 absolute z-30 inset-0 flex flex-col items-center px-10">
+          <div className=" lg:absolute lg:z-30 lg:inset-0 lg:flex lg:items-start bg-red200 lg:px-20 absolute z-30 inset-0 flex flex-col items-center px-10">
             {/* edit */}
-            <div className="lg:text-white lg:pt-25 lg:w-1/2 lg:flex lg:flex-col lg:justify-center lg:h-5/6 lg:space-y-10 md:w-4/5 text-white pt-20 full flex flex-col justify-center h-4/5 space-y-10">
-              <h1 className="lg:text-[60px] lg:mt-[-50px] lg:font-bold lg:leading-tight lg:text-left  lg:pr-10text-[40px] text-center font-bold leading-tight">
+            <div className=" lg:text-white lg:pt-25 lg:w-1/2 lg:flex lg:flex-col lg:justify-center lg:h-5/6 lg:space-y-10 md:w-4/5 text-white  full flex flex-col justify-center h-4/5 space-y-10">
+              <h1 className="lg:text-[60px] lg:mt-[-50px] -mt-10 lg:font-bold lg:leading-tight lg:text-left  lg:pr-10text-[40px] text-center font-bold leading-tight">
                 {slides[current].title}
               </h1>
               <p className="lg:text-lg lg:text-gray-200 lg:leading-8 lg:text-left lg:pr-5 md:text-lg text-base text-center text-gray-100 leading-6">
@@ -97,7 +97,7 @@ function HeroSection() {
             </div>
 
             {/* contact info */}
-            <div className="lg:absolute lg:w-80 md:flex-row lg:flex-col md:gap-5 lg:gap-2 lg:bottom-8 flex flex-col lg:right-8 lg:z-30 w-full gap-2 mt-[-10px] lg:mt-0">
+            <div className=" lg:absolute lg:w-80 md:flex-row lg:flex-col md:gap-5 lg:gap-2 lg:bottom-8 flex flex-col lg:right-8 lg:z-30 w-full gap-2 mt-[-10px] lg:mt-0 pb-5 lg:pb-0">
               <div className="flex flex-row w-full gap-1 group">
                 <div className="bg-white/10 flex justify-center items-center lg:w-2/12 backdrop-blur-md rounded-full border border-white/20 lg:shadow-xl text-white group-hover:bg-secondary group-hover:cursor-pointer p-2 gap-3">
                   <BiPhoneCall className="text-lg" />
@@ -118,7 +118,7 @@ function HeroSection() {
                 </div>
               </div>
 
-              <div className="flex flex-row w-full gap-1 group">
+              <div className="flex flex-row w-full gap-1 group ">
                 <div className="bg-white/10 flex justify-center items-center lg:w-2/12 backdrop-blur-md rounded-full border border-white/20 lg:shadow-xl text-white group-hover:bg-secondary group-hover:cursor-pointer p-2 gap-3">
                   <GrLocation className="text-lg" />
                 </div>
@@ -135,7 +135,7 @@ function HeroSection() {
         </div>
 
         {/* CTA Buttons */}
-        <div className="lg:flex items-center lg:items-left lg:justify-start lg:gap-4 lg:mt-2 flex justify-center gap-4 mt-2 absolute bottom-70 lg:bottom-35 lg:left-20">
+        <div className=" lg:flex items-center lg:items-left lg:justify-start lg:gap-4 lg:mt-2 flex justify-center gap-4 mt-10 absolute  bottom-[35dvh] lg:bottom-35 lg:left-20">
           <Link to="/contactus">
             <button className="border cursor-pointer z-888 text-sm lg:text-base border-white text-white px-6 py-3 rounded-full font-semibold hover:bg-white hover:text-black lg:transition">
               Get In Touch
